@@ -4,7 +4,7 @@ from .config import Config
 import logging
 
 # Setup logging to stderr (MCP best practice)
-# Claude Desktop automatically captures stderr logs to ~/Library/Logs/Claude/mcp-server-podcast-mcp.log
+# Claude Desktop automatically captures stderr logs to ~/Library/Logs/Claude/mcp-server-Podcast MCP.log
 logging.basicConfig(
     level=getattr(logging, Config.MCP_LOG_LEVEL),
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',

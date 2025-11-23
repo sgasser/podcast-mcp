@@ -78,9 +78,9 @@ Currently, we support the built-in high-quality voices from Coqui XTTS-v2.
 Yes! The first time you run it, it downloads the AI model (~2GB). After that, it works entirely offline.
 
 **Where can I find debug logs?**
-Claude Desktop automatically captures all logs to `~/Library/Logs/Claude/mcp-server-podcast-mcp.log`. You can view them with:
+Claude Desktop automatically captures all logs to `~/Library/Logs/Claude/mcp-server-Podcast MCP.log`. You can view them with:
 ```bash
-tail -f ~/Library/Logs/Claude/mcp-server-podcast-mcp.log
+tail -f ~/Library/Logs/Claude/mcp-server-Podcast\ MCP.log
 ```
 To change the log level, edit `MCP_LOG_LEVEL` in `.env` (options: DEBUG, INFO, WARNING, ERROR).
 
